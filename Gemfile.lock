@@ -1,0 +1,37 @@
+GEM
+  specs:
+    active-triples (0.11.0)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      rdf (~> 2.0, >= 2.0.2)
+      rdf-vocab
+    activemodel (5.0.0.1)
+      activesupport (= 5.0.0.1)
+    activesupport (5.0.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    concurrent-ruby (1.0.2)
+    hamster (3.0.0)
+      concurrent-ruby (~> 1.0)
+    i18n (0.7.0)
+    link_header (0.0.8)
+    minitest (5.8.3)
+    rdf (2.1.0)
+      hamster (~> 3.0)
+      link_header (~> 0.0, >= 0.0.8)
+    rdf-vocab (2.1.0)
+      rdf (~> 2.1)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  active-triples
+
+BUNDLED WITH
+   1.12.5
